@@ -25,7 +25,22 @@
 
 body{
     height: 100vh;
-    background: var(--body-color);
+    background-color: black;
+}
+
+.page{
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 89%;
+    background-repeat: no-repeat;
+    background-image: url(UCbg.jpg);
+    background-size: cover;
+    background-position-y: 100%;
+}
+.page .content{
+ 
+
 }
 
 /*=====Sidebar=====*//*=====Sidebar=====*/
@@ -133,5 +148,3 @@ header .image-text .header-text{
     flex-direction: column;
     justify-content: space-between;
 }
-
-
