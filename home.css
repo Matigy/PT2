@@ -1,0 +1,168 @@
+.page{
+    right: 0;
+    position: absolute;
+    height: 100%;
+    width: 88.3%;
+    background-repeat: no-repeat;
+    background-image: url(pncr.jpg);
+    background-size: cover;
+    background-position-y: 100%;
+    height: 165vh;
+    padding-left: 280px;
+    padding-top: 50px;
+    padding-right: 50px;
+    justify-content: left;
+    background-attachment: fixed;
+   
+}
+
+
+.line {
+    width: 170px;
+    height: 4px;
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+
+.ctn {
+    padding: 8px 15px;
+    background: var(--primary-color);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+
+.header-content h1, h2 {
+    color: white;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.info {
+    text-align: justify;
+   
+}
+#text {
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    margin-left: 10px;
+    padding: 0px 40px;
+    width: 410px;
+    font-weight: 600;
+}
+
+
+.info1 {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+
+
+
+.pic {
+    border-radius: 50%;
+    top: 50px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    margin-left: 550px;
+    position: absolute;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    
+}
+
+
+.course {
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+
+.SHS {
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+
+.Health .nurse {
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-weight: 500;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+
+.Computing {
+    margin-top: 50px;
+}
+
+
+.Computing .com {
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+.Educ {
+    margin-top: 50px;
+}
+.Educ .lrn {
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+    color: black;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
