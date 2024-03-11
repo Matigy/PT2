@@ -4,7 +4,7 @@
     height: 100%;
     width: 88.3%;
     background-repeat: no-repeat;
-    background-image: url(pncr.jpg);
+    background-image: url(UCbg.jpg);
     background-size: cover;
     background-position-y: 100%;
     height: 165vh;
@@ -13,8 +13,9 @@
     padding-right: 50px;
     justify-content: left;
     background-attachment: fixed;
-   
 }
+
+
 
 
 .line {

@@ -1,0 +1,135 @@
+body{
+    position: relative;
+    height: 100vh;
+    background-image: url(pamantasan-ng-cabuyao-363.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+
+}
+
+  .backgroundimg{
+  
+    box-sizing: border-box;
+    background-position: center center;
+    height: 100%;
+    padding: 400px;
+    justify-content: center;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+  
+  
+  }
+  
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  
+  .omg{
+    position: center;
+    height: 400px;
+    width: 1400px;
+  }
+  .descrip{
+    text-align: center;
+    margin:40px;
+    margin-left: 800px;
+    margin-right: 800px;
+    padding:5px;
+  }
+  
+  
+  .descrip h1{
+    font-size: 100px;
+    font-weight: bold;
+    font-family:Playfair Display;
+    justify-content: center;
+  }
+  
+  
+  .descrip p{
+    font-size: 25px;
+    font-family: Rubik;
+    padding:3px
+  }
+  
+  
+  .one{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .two{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .three{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .member{
+    width: 350px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    border-radius: 5%;
+    border: 2px solid rgba(42, 1, 1, 0.2);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .per-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .member h1{
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 300;
+  }
+  .member p{
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 300;
+  }
+  
+  
+  .member hr{
+    margin: 10px;
+  }
+  
+  
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .member li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .member a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+  }
+  .member a:hover{
+    color: #b9b9b9;
+  }
+  
