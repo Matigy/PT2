@@ -1,6 +1,5 @@
-
-  
   .page{
+    background-attachment: fixed;
     right: 0;
     position: absolute;
     height: 100%;
@@ -9,11 +8,11 @@
     background-image: url(UCbg.jpg);
     background-size: cover;
     background-position-y: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+  
   .container{
     width: 100%;
     background: #fff;

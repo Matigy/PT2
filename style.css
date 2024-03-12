@@ -28,18 +28,6 @@ body{
     background-color: black;
 }
 
-.page{
-    right: 0;
-    position: absolute;
-    height: 100%;
-    width: 88.3%;
-    background-repeat: no-repeat;
-    background-image: url(UCbg.jpg);
-    background-size: cover;
-    background-position-y: 100%;  
-}
-
-
 /*=====Sidebar=====*//*=====Sidebar=====*/
 .sidebar{
     position: fixed;
