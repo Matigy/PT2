@@ -1,14 +1,14 @@
 body{
     position: relative;
     height: 100vh;
-    background-image: url(pamantasan-ng-cabuyao-363.jpg);
+    
     background-size:cover;
     background-repeat:no-repeat;
 
 
 }
 
-  .backgroundimg{
+  .background img{
   
     box-sizing: border-box;
     background-position: center center;
@@ -29,7 +29,7 @@ body{
   }
   
   
-  .omg{
+  .img{
     position: center;
     height: 400px;
     width: 1400px;
