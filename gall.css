@@ -56,8 +56,9 @@
     }
     
     .top-content{
+      justify-content: center;
       background-color: lightgrey;
-      width: 90%;
+      width: fit-content;
       margin: 0 auto 200px auto;
       height: 60px;
       display: flex;
@@ -181,3 +182,22 @@
         transition: 0.0s; 
     }
     
+    #check4:checked ~ .container .photo-gallery .flag {
+      opacity: 1;
+      transform: scale(1);
+      position: relative;
+   }
+   
+   #check4:checked ~ .container .photo-gallery .pnc{
+       opacity: 0;
+       transform: scale(0);
+       position: absolute;
+       transition: 0.0s; 
+   }
+
+   #check4:checked ~ .container .photo-gallery .citech{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+    transition: 0.0s; 
+}
