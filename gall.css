@@ -124,7 +124,6 @@
         margin-top: -100px;
         opacity: 0;
         transition: .3s;
-        transition-delay: .2s;
         z-index: 1;
     }
     
